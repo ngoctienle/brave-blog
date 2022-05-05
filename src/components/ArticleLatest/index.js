@@ -9,7 +9,7 @@ const ArticleLatest = () => {
     <div className="latest-news section">
       <div className="tcl-container">
         {/* Main Title */}
-        <MainTitle />
+        <MainTitle>Lastest News</MainTitle>
         {/* Latest News List */}
         <div className="latest-news__list spacing">
           <div className="latest-news__card">
