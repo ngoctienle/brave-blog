@@ -20,16 +20,17 @@
   align-items: center; }
   @media screen and (min-width: 640px) {
     .header {
-      height: 7rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem; } }
+      height: 10rem;
+      /* padding-top: 2rem;
+      padding-bottom: 2rem;*/ } }
   .header-logo {
     position: relative;
     overflow: hidden;
     display: inline-block;
     width: 150px;
-    height: 35px;
-    vertical-align: middle; }
+    /* height: 100px; */
+    vertical-align: middle; 
+  }
   .header-nav {
     display: none; }
     .header-nav__lists {

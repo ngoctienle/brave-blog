@@ -7,7 +7,7 @@ const HeaderLogo = () => {
       {/* Logo */}
       <div className="header-logo">
         <Link to="/">
-          <img src="/assets/images/logo.png" alt="Go to homepage" />
+          <img src="/assets/images/logo-black.png" alt="Go to homepage" />
         </Link>
       </div>
     </div>
