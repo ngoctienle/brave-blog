@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderMenus = () => {
   return (
@@ -51,9 +52,9 @@ const HeaderMenus = () => {
         </ul>
         <ul className="header-nav__lists">
           <li className="user">
-            <a href="login.html">
-              <i className="icons ion-person" /> Tài khoản
-            </a>
+            <Link to="/login">
+              <i className="icons ion-person" /> Account
+            </Link>
           </li>
         </ul>
       </div>

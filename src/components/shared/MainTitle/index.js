@@ -5,9 +5,10 @@ import cls from "classname";
 
 import Button from "../Button";
 
-const MainTitle = ({ children, btnProps = {}, btnLable }) => {
+const MainTitle = ({ children, btnProps = {}, btnLable, type = "" }) => {
   const classes = cls("main-title spacing", {
     "d-flex tcl-jc-between tcl-ais-center": btnLable,
+    "main-title__search": type === "search",
   });
 
   return (
