@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { BASE_URL } from "./constants";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -10,9 +11,11 @@ import RegisterPage from "./pages/RegisterPage";
 import SearchPage from "./pages/SearchPage";
 
 const App = () => {
+  console.log(BASE_URL);
   return (
     <div className="wrapper-content">
       <Header />
+      {BASE_URL}
       <Routes>
         <Route path="/post/:slug" element={<PostDetailPage />} />
         <Route path="/search" element={<SearchPage />} />
